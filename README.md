@@ -6,6 +6,7 @@ This project is a full-stack Product Management Application, combining a backend
 
 - Add new products
 - View all products
+- View product by ID and product name
 - Update existing products
 - Delete products
 
