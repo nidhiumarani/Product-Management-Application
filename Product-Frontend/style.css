@@ -1,0 +1,161 @@
+body {
+    background-color: whitesmoke;
+}
+
+h1 {
+    justify-content: center;
+    display: flex;
+}
+
+.top-bar {
+    background-color: white;
+    margin: auto;
+    height: 5rem;
+    padding: 2rem;
+    border-radius: 2rem;
+    width: 50rem;
+    box-shadow: 0 0 3px 0 grey;
+}
+
+.top-bar input {
+    background-color: rgb(244, 240, 240);
+    height: 2rem;
+    width: 30rem;
+    margin: 1rem;
+    margin-left: 2rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+    border-width: 0.1rem;
+}
+
+.top-bar button {
+    background-color: rgb(181, 181, 227);
+    height: 2rem;
+    width: 6rem;
+    margin: 2px;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 0.4rem;
+    border-width: 0.1rem;
+    cursor: pointer;
+}
+
+.top-bar button:hover {
+    background-color: rgb(194, 226, 227);
+}
+
+.grids {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    border-radius: 2rem;
+    margin: 3rem;
+    padding: 2rem;
+    box-shadow: 0 0 3px 0 grey;
+    max-width: 100%;
+    max-height: 40rem;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+.product-card {
+    background-color: rgb(236, 236, 230);
+    margin: 1rem;
+    width: 20rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 0.4rem solid rgb(241, 241, 225);
+}
+
+.product-card button {
+    background-color: rgb(181, 181, 227);
+    width: 4rem;
+    margin-right: 0.6rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    border-width: 0.1rem;
+    cursor: pointer;
+}
+
+.product-card button:hover {
+    background-color: rgb(194, 226, 227);
+}
+
+.backButton {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+#backButton {
+    height: 2rem;
+    padding: 0.4rem;
+    border-radius: 0.5rem;
+    background-color: rgb(181, 181, 244);
+}
+
+#backButton:hover {
+    cursor: pointer;
+    background-color: rgb(194, 226, 227);
+}
+
+/* Form Page CSS*/
+.form {
+    background-color: white;
+    height: 11rem;
+    margin: auto;
+    margin-top: 3rem;
+    padding: 2rem;
+    width: 55rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 2rem;
+    box-shadow: 0 0 4px grey;
+}
+
+.form input {
+    margin: auto;
+    width: 40rem;
+    height: 2rem;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+    border-width: 0.1rem;
+}
+
+.form button {
+    background-color: rgb(181, 181, 244);
+    height: 2rem;
+    margin: auto;
+    width: 8rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.form button:hover{
+    background-color: rgb(194, 226, 227);
+}
+
+/*h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}*/
+
+.product_management {
+    display: flex;
+    margin: auto;
+    margin-top: 2rem;
+    height: 2rem;
+    padding: 0.4rem;
+    border-radius: 0.5rem;
+    background-color: rgb(181, 181, 244);
+}
+
+.product_management:hover {
+    background-color: rgb(194, 226, 227);
+    cursor: pointer;
+}
